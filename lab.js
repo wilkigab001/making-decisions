@@ -6,7 +6,13 @@
   If it is not, console log "Coding has its challenges."
 */
 
-//CODE HERE
+// let lovesCode = true;
+// if(lovesCode === true){
+//   console.log("I love to code!")
+// }else{
+//   console.log("Coding has its challenges.")
+// }
+
 
 // For problems 2-3 use the following lines of code:
 var amysAge = 29;
@@ -14,21 +20,32 @@ var brittanisAge = 34;
 var amysBirthYear = 1991;
 var brittanisBirthYear = 1986;
 
-////////// PROBLEM 2 //////////
+//////// PROBLEM 2 //////////
 
 /*
   Using an if statement and a comparison operator, create code that will check if Amy or Brittani is older, and then console.log '{name} is older'. Hint: Consider what will happen if they are the same age. Handle this situation.
 */
+// if(amysAge < brittanisAge){
+//   console.log('Brittani is older')
+// }else if(amysAge > brittanisAge){
+//   console.log('Amy is older')
+// }else{
+//   console.log('They are the same age')
+// }
 
-//CODE HERE
 
-////////// PROBLEM 3 //////////
+// ////////// PROBLEM 3 //////////
 
-/*
-  Using an if statement and a comparison operator, create code that will check if Amy and Brittani were born in the same year. If they were, console.log 'Amy & Brittani were born in the same year'. If they were not, console.log 'Amy & Brittani were not born in the same year'
-*/
+// /*
+//   Using an if statement and a comparison operator, create code that will check if Amy and Brittani were born in the same year. If they were, console.log 'Amy & Brittani were born in the same year'. If they were not, console.log 'Amy & Brittani were not born in the same year'
+// */
 
-//CODE HERE
+// if(amysBirthYear === brittanisBirthYear){
+//   console.log('born in the same year')
+// }
+// else{
+//   console.log('not born in the same year')
+//}
 
 ////////// PROBLEM 4 //////////
 
@@ -40,8 +57,15 @@ let rain = true;
   If it is 80 degrees or above, and raining, one should wear a t-shirt and take an umbrella. If it is between 60 and 80 degrees, and raining, one should wear a rain-jacket. If it is 60 degrees or below, one should wear a jacket and carry an umbrella. Come up with your own clothing suggestions based on those temperature parameters when it is not raining.
 */
 
-//CODE HERE
-
+if(temperature >= 80 && rain === true){
+  console.log('tshirt and umbrella')
+} else if(temperature > 60 && temperature < 80 && rain === true){
+  console.log('rain jacket')
+} else if(temperature <= 60){
+  console.log('jacket and umbrella')
+}else{
+  console.log('tshirt and shorts')
+}
 ////////// PROBLEM 5 //////////
 
 /*
